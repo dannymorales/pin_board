@@ -1,6 +1,8 @@
 require File.expand_path('../boot', __FILE__)
 require 'devise'
 require 'rails/all'
+require 'simple_form'
+require 'simple_form_bootstrap'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
