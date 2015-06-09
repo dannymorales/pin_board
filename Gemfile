@@ -23,7 +23,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+<<<<<<< HEAD
 gem 'passenger' 
+=======
+gem 'passenger'
+>>>>>>> f24becf4bee0f480030670eee4d3bc163b30050b
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -48,5 +52,6 @@ group :development, :test do
   gem 'simple_form', '~> 3.1.0'
   gem 'devise', '~> 3.4.1'
   gem 'paperclip', '~> 4.2.1'
+  gem 'masonry-rails', '~> 0.2.4'
 end
 
