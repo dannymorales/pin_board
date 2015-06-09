@@ -27,6 +27,6 @@ production:
   pool: 5
   timeout: 5000
   database: pins
-  username: pins
+  username: admin
   host: localhost
   encoding: unicode
