@@ -23,3 +23,10 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  database: pins
+  username: pins
+  host: localhost
+  encoding: unicode
